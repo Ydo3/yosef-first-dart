@@ -13,12 +13,6 @@ void main(List<String> args) {
     }
 
     final age = int.tryParse(input);
-
-    if (age == null) {
-      stdout.writeln('Invalid age. Try again');
-      continue;
-    }
-
     switch (age) {
       case 10:
         stdout.writeln('You are 10 years old. Great!');

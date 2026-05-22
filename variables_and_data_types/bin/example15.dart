@@ -9,12 +9,20 @@ void main(List<String> args){
     print(!someBoolean);
     const List<int> someList = [1, 2, 3];
     print(someList);
-    const Map<String, String> someMap = {'foo': 'bar'};
-    print(someMap['foo']);
-    const Set<int> someSet = {1,2,3};
+    const Map<String, String> someMap = {'bar':'foo'};
+    print(someMap['bar']);
+    const Set<int> someSet = {1,2,3,4,5};
     print(someSet.length);
     const dynamic someNull = null;
     print(someNull);
     const Symbol someSymbol = #someNull;
     print(someSymbol); 
+    print('-------------------------------------');
+    final Map<int,String> sturec = {
+      1:"Yosef",
+      2:"kirubel",
+      3:"Bini",
+      4:"Yared",
+    };
+    print(sturec[2]);
 }

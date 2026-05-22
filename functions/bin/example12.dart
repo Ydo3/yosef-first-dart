@@ -2,9 +2,9 @@ void main(List<String> args){
 makeUpperCase();
 makeUpperCase(null);
 makeUpperCase('Foo');
-makeUpperCase('Foo', 'Bar');
+makeUpperCase('Foo', 'Baz');
 }
-void makeUpperCase([String? name, String lastName = 'bar']){
+void makeUpperCase([String? name , String lastName = 'bar', int? age]){
     print(name?.toUpperCase());
     print(lastName.toUpperCase());
 }

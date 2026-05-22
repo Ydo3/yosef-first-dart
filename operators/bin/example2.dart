@@ -8,7 +8,7 @@ void main(List<String> args){
   print(!true);
   print(++age);
   ///unary bitwise complement prefix operator
-  print(~1);
+  print(~8);
   print(-age);
   
 }

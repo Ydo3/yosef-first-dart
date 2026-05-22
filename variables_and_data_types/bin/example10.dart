@@ -8,8 +8,17 @@ void main(List<String> args){
 //getValue called
 //We are here 
 //10
+print('-----------------------');
+late final int hisValue = setValue();
+print('let us see who comes first');
+print(hisValue);
+
 }
 int getValue(){
     print('getValue called');
     return 10;
+}
+int setValue(){
+  print('practicing');
+  return 50;
 }

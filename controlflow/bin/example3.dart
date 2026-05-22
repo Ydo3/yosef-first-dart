@@ -33,7 +33,7 @@ for(final name in names.reversed ){
 }
 print('-------------------------------');
 
-for(int value in Iterable.generate(20)){
+for(int value in Iterable.generate(10)){
     print(value);
 }
 }
